@@ -1,0 +1,22 @@
+# W3TC - W3 Total Cache
+w3tc-config/
+cache/
+mobile/cache
+
+# visual studio code
+.vscode/*
+
+# Env
+.htaccess
+.gitkeep
+
+node_modules
+#bower_components
+.sass-cache
+
+##########################
+*.log
+*.sql
+*.sh
+readme.md
+license.txt
