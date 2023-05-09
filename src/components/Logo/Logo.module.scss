@@ -1,6 +1,6 @@
-@import '../../assets/_variables.scss';
+@import '../../assets/variables';
 
 .logo {
     font: 32px $logo-font-family;
-    color: #000;
+    color: $pale-yellow;
 }
