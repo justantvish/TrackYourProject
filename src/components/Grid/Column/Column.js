@@ -1,8 +1,8 @@
-import styles from './Column.module.scss';
+import './Column.scss';
 
 const Column = (props) => {
     return (
-        <div className={styles.col}>{props.children}</div>
+        <div className="">{props.children}</div>
     );
 };
 
