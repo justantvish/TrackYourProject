@@ -48,3 +48,5 @@ readme.txt# See https://help.github.com/articles/ignoring-files/ for more about 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+package-lock.json

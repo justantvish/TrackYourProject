@@ -2,7 +2,7 @@ import styles from './Wrapper.module.scss';
 
 const Wrapper = (props) => {
     return (
-        <Wrapper>{props.children}</Wrapper>
+        <div className={styles.wrapper}>{props.children}</div>
     );
 };
 
