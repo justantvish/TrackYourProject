@@ -1,0 +1,12 @@
+@import '../../assets/variables';
+
+.header {
+    background-color: $royal-blue;
+
+    &_inner {
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
