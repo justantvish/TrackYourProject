@@ -14,7 +14,7 @@ const MainNavigation = () => {
                         className={styles.link}
                         end
                     >
-                        Home
+                        Dashboard
                     </NavLink>
                 </li>
                 <li className={styles.item}>
@@ -22,7 +22,7 @@ const MainNavigation = () => {
                         to="board"
                         className={styles.link}
                     >
-                        Board
+                        Project
                     </NavLink>
                 </li>
             </ul>
