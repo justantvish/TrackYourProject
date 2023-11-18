@@ -1,4 +1,3 @@
-import MainNavigation from '../MainNavigation/MainNavigation';
 import Logo from '../Logo/Logo';
 import Container from '../Grid/Container/Container';
 
@@ -11,7 +10,6 @@ const Header = () => {
             <Container class="container_max">
                 <div className={styles.header_inner}>
                     <Logo />
-                    <MainNavigation />
                 </div>
             </Container>
         </header>
