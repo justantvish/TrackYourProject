@@ -1,26 +1,25 @@
 import { NavLink } from 'react-router-dom';
 
-import styles from './MainNavigation.module.scss';
+import classes from './MainNavigation.module.scss';
 
 const MainNavigation = () => {
-    console.log(styles);
 
     return (
-        <nav className={styles.nav}>
-            <ul className={styles.list}>
-                <li className={styles.item}>
+        <nav className={classes.nav}>
+            <ul className={classes.list}>
+                <li className={classes.item}>
                     <NavLink
                         to="/"
-                        className={styles.link}
+                        className={classes.link}
                         end
                     >
                         Dashboard
                     </NavLink>
                 </li>
-                <li className={styles.item}>
+                <li className={classes.item}>
                     <NavLink
                         to="board"
-                        className={styles.link}
+                        className={classes.link}
                     >
                         Project
                     </NavLink>

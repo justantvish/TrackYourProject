@@ -1,5 +1,5 @@
 
-function ErrorPage() {
+const ErrorPage = () => {
     return (
         <>
             <main>
@@ -8,6 +8,6 @@ function ErrorPage() {
             </main>
         </>
     );
-}
+};
 
 export default ErrorPage;
