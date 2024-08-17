@@ -1,10 +1,10 @@
 import { Outlet } from "react-router-dom";
 
-import Header from "../components/Header/Header";
-import Wrapper from "../components/UI/Wrapper/Wrapper";
-import Main from "../components/UI/Main/Main";
-import Sidebar from "../components/UI/Sidebar/Sidebar";
-import Content from "../components/UI/Content/Content";
+import Header from "../components/Layout/Header/Header";
+import Wrapper from "../components/Layout/Wrapper/Wrapper";
+import Main from "../components/Layout/Main/Main";
+import Sidebar from "../components/Layout/Sidebar/Sidebar";
+import Content from "../components/Layout/Content/Content";
 
 const Root = () => {
     return (

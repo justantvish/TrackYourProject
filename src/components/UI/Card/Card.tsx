@@ -1,10 +1,18 @@
 import classes from './Card.module.scss';
 
-const Card = () => {
-    <div className={classes.card}>
-        <div className={classes.title}>Card title</div>
-        <div className={classes.description}>Card description</div>
-    </div>
+type CardProps = {
+    title: string;
+    description?: string;
+}
+
+const Card: React.FC<CardProps> = ({title, description}) => {
+
+    return (
+        <div className={classes.card}>
+            <div className={classes.title}>{title}</div>
+            {description && <div className={classes.description}>{description}</div>}
+        </div>
+    );
 };
 
 export default Card;

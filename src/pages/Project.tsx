@@ -1,8 +1,10 @@
+import Board from "../components/Board/Board";
+
 const Project = () => {
 
     return (
         <>
-            <h1>Project</h1>
+            <Board/>
         </>
     );
 };

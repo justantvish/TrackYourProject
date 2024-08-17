@@ -2,13 +2,13 @@ import React from "react";
 
 type Props = {
     children: React.ReactNode | Iterable<React.ReactNode>;
-    optionalClass: string
+    containerClass: string;
 };
 
-const Container:React.FC<Props>  = ({optionalClass, children}) => {
+const Container:React.FC<Props>  = ({containerClass, children}) => {
 
     return (
-        <div className={optionalClass}>{children}</div>
+        <div className={containerClass}>{children}</div>
     );
 };
 

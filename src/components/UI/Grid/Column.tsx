@@ -1,10 +1,11 @@
 type Props = {
     children: React.ReactNode | Iterable<React.ReactNode>;
+    colClass: string;
 };
 
-const Column:React.FC<Props>  = ({children}) => {
+const Column:React.FC<Props>  = ({children, colClass}) => {
     return (
-        <div className="">{children}</div>
+        <div className={colClass}>{children}</div>
     );
 };
 
