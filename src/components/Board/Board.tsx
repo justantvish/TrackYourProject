@@ -1,26 +1,39 @@
-// import { TaskCard } from '../../intefaces/task-card';
-// import Card from '../UI/Card/Card';
-// import Column from '../UI/Grid/Column';
-// import Container from '../UI/Grid/Container';
+import { TaskCard } from '../../intefaces/task-card';
+import BoardColumn from '../BoardColumn/BoardColumn';
+import Card from '../UI/Card/Card';
+import Container from '../UI/Grid/Container';
 import styles from './Board.module.scss';
 
-// const tasks = [
-//     {
-
-//     }
-// ]
+const tasks: TaskCard[] = [
+    {
+        title: 'Title1',
+        taskState: 'to_do'
+    },
+    {
+        title: 'Title2',
+        taskState: 'done'
+    },
+    {
+        title: 'Title3',
+        taskState: 'backlog'
+    },
+    {
+        title: 'Title4',
+        taskState: 'in_progress'
+    }
+]
 
 const Board = () => {
 
     return (
         <div className={styles.board}>
-            {/* <Container containerClass="container_grid">
+            <Container containerClass="container_grid">
                 {tasks && tasks.map((task: TaskCard, i) => (
-                    <Column colClass="col" key={i} taskState={task.taskState}>
+                    <BoardColumn key={i} taskState={task.taskState}>
                         <Card title={task.title} />
-                    </Column>
+                    </BoardColumn>
                 ))}
-            </Container> */}
+            </Container>
         </div>
     );
 };
