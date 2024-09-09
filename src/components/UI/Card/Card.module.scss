@@ -1,0 +1,24 @@
+@import '../../../assets/styles/variables';
+
+.card {
+    background-color: #f5f8e9;
+    box-shadow: 0 0 5px $dark-blue;
+    border-radius: 8px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1;
+    padding: 12px 16px;
+    border-block-end: 1px solid $dark-blue;
+    color: $pale-yellow;
+    background-color: $royal-blue;
+    border-radius: 8px 8px 0 0;
+}
+
+.body {
+    padding: 0 16px;
+    height: 100px;
+    border-radius: 0 0 8px 8px;
+}
